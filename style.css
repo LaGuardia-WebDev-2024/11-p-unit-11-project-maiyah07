@@ -1,23 +1,30 @@
 body {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
-/*   margin-top: 10%; */
+  background-attachment: fixed;
+  /*   margin-top: 10%; */
   font-family: Georgia, serif;
 }
 
-html{
+html {
   height: 100%;
   width: 100%;
 }
 
 #myCanvas {
   border: 1px solid black;
+  display: block;
+  margin: 20px auto;
+  background-image: url(https://img.freepik.com/premium-photo/cartoon-winter-landscape-with-snowing-tree_1150025-9623.jpg);
+  background-size: cover;
+ background-repeat: no-repeat;
+  width: 600px;
+  height: 450px;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -26,22 +33,35 @@ html{
   padding-bottom: 20px;
 }
 
-.pic{
+.pic {
   height: 450px;
   width: 600px;
   object-fit: cover;
   border: 1px solid black;
 }
 
-h2{
+#colorButton {
+  background-color: lightblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#colorButton:hover {
+  background-color: deepskyblue;
+}
+h2 {
   color: black;
-/*   font-size: 10px; */
+  /*   font-size: 10px; */
+  background-color: yellow;
 }
 
-#start{
+
+#start {
   text-align: left;
 }
 
-#end{
+#end {
   text-align: right;
 }
